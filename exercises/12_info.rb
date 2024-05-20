@@ -32,11 +32,7 @@ class MathOperations
     a, b = 5, 3
 
     # Welcome to the `info` kata! You'll need to know the following commands:
-    # - next
-    # - continue
-    # - step
-    # - finish
-    # - break
+    # `continue`, `next`, `step`, `finish`, `break`
     binding.break # Type `info` or `i` to show information about the current context.
                   # Continue.
 

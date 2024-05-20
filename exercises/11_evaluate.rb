@@ -42,10 +42,7 @@ def find_user(id)
 end # Step out of the method.
 
 # Welcome to the `evaluate` kata! You'll need to know the following commands:
-# - next
-# - step
-# - finish
-# - continue
+# `continue`, `next`, `step`, `finish`
 binding.break # Next to start the kata.
 
 user = find_user(2) # Step into the `find_user` method.

@@ -40,12 +40,10 @@ class Calculator
 end
 
 # Welcome to the `break` kata! You'll need to know the following commands:
-# - next
-# - step
-# - continue
+# `continue`, `next`, `step`
 binding.break # Next to start the kata.
 
-calculate_tax(100) # Type `break 51` or `b 51` to set a breakpoint on line 51, then continue.
+calculate_tax(100) # Type `break 49` or `b 49` to set a breakpoint on line 49, then continue.
 calculate_tax(200)
 calculate_tax(300)
 calculate_tax(400) # Step into the `calculate_tax` method.

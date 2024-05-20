@@ -5,7 +5,8 @@ require "debug"
 @shipment = 0
 @restock = 0
 
-# Welcome to the `watch` kata!
+# Welcome to the `watch` kata! You'll need to know the following commands:
+# `continue`
 binding.break # Type `watch @inventory_count` to break whenever `@inventory_count` changes, and continue.
 
 5.times do

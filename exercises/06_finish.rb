@@ -36,9 +36,7 @@ def process_payment(order_id, amount)
 end
 
 # Welcome to the `finish` kata! You'll need to know the following commands:
-# - next
-# - step
-# - continue
+# `continue`, `next`, `step`
 binding.break # Next to start the kata.
 
 calculate_total_price(5, 20) # Step into the `calculate_total_price` method.

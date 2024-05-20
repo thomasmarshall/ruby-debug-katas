@@ -31,8 +31,7 @@ def process_list(items)
 end # Step out of the block.
 
 # Welcome to the `step` kata! You'll need to know the following commands:
-# - next
-# - continue
+# `continue`, `next`
 binding.break # Next to start the kata.
 
 authenticate("admin") # Type `step` or `s` to step into the `authenticate` method.

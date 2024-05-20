@@ -10,11 +10,7 @@ def calculate_interest(principal, rate, time)
 end # Step out of the `calculate_interest` method.
 
 # Welcome to the `delete` kata! You'll need to know the following commands:
-# - next
-# - step
-# - break
-# - finish
-# - continue
+# `continue`, `next`, `step`, `finish`, `break`
 binding.break # Next to start the kata.
 
 calculate_interest(1000, 5, 2) # Step into the `calculate_interest` method.

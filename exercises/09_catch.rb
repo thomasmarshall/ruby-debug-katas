@@ -57,10 +57,7 @@ rescue InvalidPost
 end # Leave the method.
 
 # Welcome to the `catch` kata! You'll need to know the following commands:
-# - next
-# - continue
-# - delete
-# - finish
+# `continue`, `next`, `finish`, `delete`
 binding.break # Next to start the kata.
 
 process_data("Hello, World!") # Type `catch InvalidData` to set a breakpoint on raising `InvalidData`, then continue.

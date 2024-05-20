@@ -7,7 +7,7 @@ def process_data(data); end
 def calculate_sum(a, b); end
 
 # Welcome to the `next` kata! You'll need to know the following commands:
-# - continue
+# `continue`
 binding.break # Type `next` or `n` to resume until the next line.
 
 authenticate("admin") # Type `next` or `n` to step over the method call.

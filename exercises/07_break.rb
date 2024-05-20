@@ -60,7 +60,7 @@ order = Order.new # Type `break` or `b` to list all breakpoints.
 
 order.process
 
-calculator = Calculator.new
+calculator = Calculator.new # Next line.
 
 calculator.cube(3) # Type `break calculator.cube if: n > 4` to set a conditional breakpoint, and continue.
 calculator.cube(4)
@@ -68,10 +68,10 @@ calculator.cube(5)
 
 calculator.square_root(16) # Type `break calculator.square_root pre: puts n` to print the value of `n` before stopping, and continue.
 
-calculator.double(7) # Type `break calculator.double do: n -= 5` to subtract 5 from n before continuing, and continue.
+binding.break # Type `break self.greet do: name.reverse!` to reverse the name before continuing, and continue.
+greet("xelA")
 
-binding.break # Next line.
-calculator.negate(-10) # Type `break Calculator.negate path: /support\.rb/` to set a breakpoint in a file, and continue.
+calculator.negate(-10) # Type `break Calculator.negate path: /support\.rb/` to set a breakpoint in a specific file, and continue.
 
 @orders = 0
 binding.break # Type `break if: @orders.odd?` to set a conditional breakpoint, then continue.

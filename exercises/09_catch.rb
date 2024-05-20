@@ -75,10 +75,11 @@ validate_user("admin") # Type `catch InvalidUser pre: puts user` to print the va
 validate_user("admin")
 validate_user("guest")
 
-open_file("data.txt") # Type `catch FileNotFound do: puts filename` to stop then print the value of `filename`, then continue.
+open_file("data.txt") # Type `catch FileNotFound do: puts filename` to print the value of `filename` without breaking, then continue.
 open_file("config.yml")
 open_file("missing.txt")
 
+binding.break # Next line.
 create_post("MY FIRST POST") # Type `catch InvalidPost path: /support\.rb/` to set a breakpoint in a specific file, then continue.
 create_post("another post")
 create_post("How to debug Ruby code using the Ruby debug gem")

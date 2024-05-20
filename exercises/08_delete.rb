@@ -19,7 +19,7 @@ binding.break # Next to start the kata.
 
 calculate_interest(1000, 5, 2) # Step into the `calculate_interest` method.
 calculate_interest(1500, 4, 3) # List all breakpoints.
-                               # Type `del <n>` or `delete <n>` to delete the breakpoint on line 6, then continue.
-calculate_interest(2000, 3, 4) # Type `del` or `delete` and then `Y` to delete all breakpoints, then next.
+                               # Type `delete 0` or `del 0` to delete the breakpoint on line 6, then continue.
+calculate_interest(2000, 3, 4) # Type `delete` or `del` and then `Y` to delete all breakpoints, then next.
 
 exit # Nice one! Continue to finish the kata.
